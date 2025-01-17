@@ -25,12 +25,6 @@ body {
     text-align: center;
 }
 
-.main h1 {
-    background: linear-gradient(86deg, rgba(255,0,0,1) 0%, rgba(247,122,0,1) 50%, rgba(255,252,0,1) 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
 .about {
     text-align: left;
     width: 70%;
@@ -72,3 +66,16 @@ a:hover {
     opacity: 1;
     visibility: visible;
 }
+
+#titr {
+    margin-top: 70px;
+    font-family: 'Helvetica' ;
+    font-size: 70px ;
+    font-size: 6vw;
+    text-align: center;
+    opacity:0.7;
+    display: inherit;
+    background: linear-gradient(86deg, rgba(255,0,0,1) 0%, rgba(247,122,0,1) 50%, rgba(255,252,0,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
